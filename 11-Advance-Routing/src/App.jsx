@@ -5,7 +5,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import { Route,Routes } from 'react-router-dom'
 import Notfound from './Pages/Notfound'
-import contactUs from './Pages/Contactus'
+import ContactUs from './Pages/Contactus'
 const App = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/contactus' element={<contactUs/>} />
+        <Route path='/contactUs' element={<ContactUs/>} />
         <Route path='*' element={<Notfound/>} />
       </Routes>
       <Footer/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Notfound = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500">
+    <div className="flex flex-col items-center justify-center h-screen">
       
       {/* Animated sad face */}
       <div className="text-9xl mb-6 animate-bounce">😢</div>
@@ -20,7 +20,7 @@ const Notfound = () => {
       {/* Button to go home */}
       <a 
         href="/" 
-        className="px-6 py-3 bg-black text-yellow-300 rounded-lg shadow-lg hover:bg-gray-800 transition duration-300 ease-in-out transform hover:scale-105"
+        className="px-6 py-3  text-white bg-cyan-700  rounded-lg shadow-lg hover:bg-gray-800 transition duration-300 ease-in-out transform hover:scale-105"
       >
         Go Back Home
       </a>
