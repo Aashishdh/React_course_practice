@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gold;
+}
+
+input{
+    margin: 10px;
+    padding:10px 20px;
+    border: 2px solid white;
+}
+
+.box{
+    background-color: crimson;
+    height: 400px;
+    width: 500px;
+}
